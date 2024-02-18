@@ -35,3 +35,11 @@ h1 {
     z-index: 999;
     text-align: left;
 }
+
+@media screen and (max-width: 1100px) {
+    .header-toggle {
+        position: fixed;
+        left: 0.75rem;
+        top: 3.25em;
+    }
+}
