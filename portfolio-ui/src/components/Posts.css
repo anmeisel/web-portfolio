@@ -130,6 +130,7 @@ a {
     margin-left: 22em;
     margin-top: 0.6em;
     text-align: left;
+    z-index: 5;
 }
 
 .bio p {

@@ -5,8 +5,8 @@ node_modules
 .turbo
 
 # build folders
-apps/**/build/**
-apps/**/dist/**
+**/build/**
+**/dist/**
 .next/**
 
 # misc
@@ -14,6 +14,6 @@ apps/**/dist/**
 .vercel
 
 # keys
-apps/portfolio-cms/sanity.cli.ts
-apps/portfolio-cms/sanity.config.ts
-apps/portfolio-ui/src/client.js
+portfolio-cms/sanity.cli.ts
+portfolio-cms/sanity.config.ts
+portfolio-ui/src/client.js
