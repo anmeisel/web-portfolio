@@ -1,0 +1,37 @@
+.btn {
+    cursor: pointer;
+    width: 2vw;
+    height: 2vh;
+    border-radius: 2em;
+    border-width: 2px;
+    margin: 0.5em;
+}
+
+.buttons-top {
+    position: fixed;
+    top: 0;
+    right: 1rem;
+    text-align: right;
+    z-index: 999;
+}
+
+.toggle {
+    font-size: 0.5em;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    position: fixed;
+    top: -1em;
+    left: -0.8em;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 15vh;
+    padding: 1.25em 1em 0.75em 1.5em;
+    background-color: darkgreen;
+    font-size: 1em;
+    z-index: 999;
+    text-align: left;
+}

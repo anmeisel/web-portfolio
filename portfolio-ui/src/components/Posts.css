@@ -1,0 +1,152 @@
+.post-margin {
+    margin-bottom: 5em;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.post-margin {
+    margin-top: -3.25em;
+}
+
+.post-margin:last-of-type {
+    margin-bottom: 0.5em;
+}
+
+.backgroundImage {
+    position: relative;
+}
+
+.backgroundImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 100vh;
+    visibility: hidden;
+}
+
+.foreGround {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-top: 3.5em;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-top: 4em;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 1rem;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.mainImage img, .secondImage img {
+    max-width: 40vw;
+}
+
+.secondImage img {
+    max-height: 80vh;
+}
+
+.mainImage img {
+    margin-top: -15vh;
+    margin-left: 10vh;
+}
+
+.imgOne img, .imgTwo img, .imgThree img {
+    height: 10vw;
+}
+
+.right, .left {
+    max-height: calc(100% - 3em);
+    overflow-y: scroll;
+    z-index: 999;
+}
+
+.left p {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.inner-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: calc(100vw - 2em);
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 1em 1em 1em;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+
+.inner-footer div {
+    align-self: auto;
+}
+
+.footer-2 {
+    width: calc(100vw - 2em);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    z-index: 0;
+}
+
+.footer-1, .footer-3 {
+    z-index: 5;
+}
+
+.footer-1 a {
+    text-decoration: underline;
+}
+
+.bio {
+    width: calc(100% - 40em);
+    height: 10vh;
+    position: relative;
+    font-size: 1rem;
+    margin-left: 22em;
+    margin-top: 0.6em;
+    text-align: left;
+}
+
+.bio p {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.bio p a {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2em;
+    border-width: 2px;
+    font-size: 0.75rem;
+    border: 1px solid black;
+    background-color: darkgrey;
+    padding: 0 0.5em 0 0.5em;
+    line-height: 1rem;
+    margin-left: 0.5em;
+    margin-top: -0.25em
+}

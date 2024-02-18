@@ -1,0 +1,19 @@
+# node
+node_modules
+
+# turbo
+.turbo
+
+# build folders
+apps/**/build/**
+apps/**/dist/**
+.next/**
+
+# misc
+.DS_Store
+.vercel
+
+# keys
+apps/portfolio-cms/sanity.cli.ts
+apps/portfolio-cms/sanity.config.ts
+apps/portfolio-ui/src/client.js
