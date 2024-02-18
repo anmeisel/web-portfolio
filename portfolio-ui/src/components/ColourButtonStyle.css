@@ -42,4 +42,8 @@ h1 {
         left: 0.75rem;
         top: 3.25em;
     }
+
+    .buttons-top {
+        right: 0.5em;
+    }
 }

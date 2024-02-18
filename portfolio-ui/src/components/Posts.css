@@ -72,6 +72,7 @@ a {
 .mainImage img {
     margin-top: -15vh;
     margin-left: 10vh;
+    max-width: 35vw;
 }
 
 .imgOne img, .imgTwo img, .imgThree img {
@@ -126,7 +127,7 @@ a {
 }
 
 .bio {
-    width: calc(100% - 40em);
+    width: calc(100% - 42em);
     height: 10vh;
     position: relative;
     font-size: 1rem;
@@ -159,7 +160,7 @@ a {
     .bio {
         font-size: 0.5em;
         margin-left: 25em;
-        width: calc(100% - 44em);
+        width: calc(100% - 46em);
     }
 
     .left {
@@ -167,7 +168,7 @@ a {
     }
 
     .right {
-        margin-top: 5em;
+        margin-top: 8em;
     }
 
     .mainImage img, .secondImage img {
@@ -203,7 +204,7 @@ a {
        margin-top: 2em;
        height: 30vh;
        overflow: visible;
-       margin-bottom: 5em;
+       margin-bottom: 30vw;
     }
 
     .post-margin {

@@ -9,7 +9,7 @@ import OnePost from "./components/OnePost";
 function App() {
 
   const [background, setBackground] = useState(`#FFFFFF`)
-  const [colourOptions, setColourOptions] = useState(["red", "green", "yellow", "blue", "orange", `#FFFFFF`])
+  const [colourOptions, setColourOptions] = useState(["hotpink", "green", "yellow", "red", "cornflowerblue", "orange", `#FFFFFF`])
 
   const [backgroundtoggle, setBackgroundToggle] = useState(false)
   const toggleClass = () => {
