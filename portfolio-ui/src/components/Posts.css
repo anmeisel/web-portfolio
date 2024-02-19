@@ -232,3 +232,16 @@ a {
     }
 
 }
+
+@media screen and (min-width: 1270px) {
+
+    .bio {
+        width: 45vw;
+        margin-left: 29vw; 
+    }
+
+    .inner-footer {
+        margin-bottom: 3vh;
+    }
+    
+}
